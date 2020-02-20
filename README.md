@@ -1,7 +1,7 @@
 # number-counter-animation
 Simple Javascript Number Counter Animation
 
-
+```javascript
 $().numberCounter({
     parentElem: '.counter-2',
     style: 'currency',
@@ -10,3 +10,4 @@ $().numberCounter({
     duration: 10000,
     currencyRemoveDecimal: 1,
 });
+```
