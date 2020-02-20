@@ -1,5 +1,5 @@
 # number-counter-animation
-Simple Javascript Number Counter Animation
+Simple jQuery/Javascript Number Counter Animation
 
 # Currency Example
 ```javascript
