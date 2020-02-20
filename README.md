@@ -12,3 +12,13 @@ $().numberCounter({
     currencyRemoveDecimal: 1,
 });
 ```
+
+# Number Example
+```javascript
+$().numberCounter({
+    parentElem: '.counter',
+    style: 'decimal',
+    countTo: 100000,
+    duration: 10000
+});
+```
