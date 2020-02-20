@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.js"></script>
+    </head>
+    <body>
+        
+        <!-- Load Inside Viewport -->
+        <div class="counter-1">
+            <span class="counter">0</span>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <!-- Load Outside Viewport -->
+        <div class="counter-2">
+            <span class="counter">0</span> 
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <script src="numberCounter.js" type="text/javascript"></script>
+        <script>
+            $().numberCounter({
+                parentElem: '.counter-1',
+                style: 'currency',
+                currency: 'USD',
+                countTo: 62000,
+                duration: 4000,
+                currencyRemoveDecimal: 1,
+            });
+
+            $().numberCounter({
+                parentElem: '.counter-2',
+                style: 'currency',
+                currency: 'USD',
+                countTo: 100000000,
+                duration: 10000,
+                currencyRemoveDecimal: 1,
+            });
+        </script>
+    </body>
+</html>
